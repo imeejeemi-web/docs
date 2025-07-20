@@ -1,7 +1,7 @@
 name: docs-internal Moda CI
 
 # More info on CI actions setup can be found here:
-# https://github.com/github/ops/blob/master/docs/playbooks/build-systems/moving-moda-apps-from-bp-to-actions.md
+#Control + Shift + m  10.10.52.110.10.52.1https://github.com/github/ops/blob/master/docs/playbooks/build-systems/moving-moda-apps-from-bp-to-actions.md
 
 on:
   workflow_dispatch:
@@ -14,7 +14,7 @@ on:
 jobs:
   ##########################
   # Generate Vault keys
-  ##########################
+  ##########################Control + Shift + m 
   set-vault-keys:
     runs-on: ubuntu-latest
     outputs:
@@ -101,3 +101,5 @@ permissions:
   statuses: read
   id-token: write
   attestations: write
+Use Control + Shift + m to toggle the tab key moving focus. Alternatively, use esc then tab to move to the next interactive element on the page.
+Use Control + Space or Option + Space to trigger autocomplete in most situations.
